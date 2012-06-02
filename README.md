@@ -40,6 +40,7 @@ Usage
 -----
 
 ```php
+<?php
 $app->register(new PrinceServiceProvider, array(
     'prince.binary' => '/usr/local/bin/prince'
 ));
