@@ -7,7 +7,7 @@ Requirements
 ------------
 
 This ServiceProvider works with the PrinceXML PHP wrapper provided by YesLogic Pty. Ltd.
-and depends on the executable distributed on the [product website](http://www.princexml.com/download). Internally, it uses a [PCR-0 conform wrapper](https://github.com/gridonic/PrinceXMLPhp) distributed as a composer package.
+and depends on the executable distributed on the [product website](http://www.princexml.com/download). Internally, it uses a [PSR-0 conform wrapper](https://github.com/gridonic/PrinceXMLPhp) distributed as a composer package.
 
 Installation
 ------------
