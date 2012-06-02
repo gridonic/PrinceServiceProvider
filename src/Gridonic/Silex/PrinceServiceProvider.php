@@ -14,6 +14,8 @@ namespace Gridonic\Silex;
 use Silex\Application;
 use Silex\ServiceProviderInterface;
 
+use PrinceXMLPhp\PrinceWrapper;
+
 /**
  * Silex ServiceProvider for the PrinceXML PHP 5 wrapper
  *
