@@ -1,0 +1,23 @@
+{
+    "name": "gridonic/prince-service-provider",
+    "description": "A PrinceXML ServiceProvider for Silex.",
+    "keywords": ["silex"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gridonic",
+            "homepage": "http://gridonic.ch"
+        },
+        {
+            "name": "Contributors",
+            "homepage": "https://github.com/gridonic/PrinceServiceProvider/contributors"
+        }
+    ],
+    "require": {
+        "silex/silex": "1.0.*",
+        "gridonic/princexml-php": "dev-master"
+    },
+    "autoload": {
+        "psr-0": { "Gridonic\\Silex": "src" }
+    }
+}
