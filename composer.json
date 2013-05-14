@@ -15,7 +15,7 @@
     ],
     "require": {
         "silex/silex": "1.0.*",
-        "gridonic/princexml-php": "dev-master"
+        "gridonic/princexml-php": "*"
     },
     "autoload": {
         "psr-0": { "Gridonic\\Silex": "src" }
