@@ -1,6 +1,8 @@
 PrinceServiceProvider
 =====================
 
+[![Build Status](https://travis-ci.org/gridonic/PrinceServiceProvider.png?branch=master)](https://travis-ci.org/gridonic/PrinceServiceProvider)
+
 A PrinceXML ServiceProvider for Silex.
 
 Requirements
