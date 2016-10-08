@@ -11,10 +11,11 @@
 
 namespace Gridonic\Silex;
 
-use Silex\Application;
-use Silex\ServiceProviderInterface;
+use Pimple\Container;
+use Pimple\ServiceProviderInterface;
 
 use PrinceXMLPhp\PrinceWrapper;
+use Silex\Application;
 
 /**
  * Silex ServiceProvider for the PrinceXML PHP 5 wrapper
@@ -23,13 +24,13 @@ use PrinceXMLPhp\PrinceWrapper;
  */
 class PrinceServiceProvider implements ServiceProviderInterface
 {
-    public function register(Application $app)
+    public function register(Container $app)
     {
-        $app['prince'] = $app->share(function ($app) {
+        $app['prince'] = function ($app) {
             return new PrinceWrapper(
                 isset($app['prince.binary']) ? $app['prince.binary'] : '/usr/local/bin/prince'
             );
-        });
+        };
     }
 
     public function boot(Application $app)
