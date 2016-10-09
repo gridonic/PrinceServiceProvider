@@ -23,7 +23,7 @@ class PrinceServiceProviderTest extends \PHPUnit_Framework_TestCase
 {
     public function setUp()
     {
-        if (!is_dir(__DIR__.'/../../../../vendor/gridonic/princexml-php/src')) {
+        if (!is_dir(__DIR__ . '/../vendor/gridonic/princexml-php/src')) {
             $this->markTestSkipped('PrinceXMLPhp dependency was not installed.');
         }
     }

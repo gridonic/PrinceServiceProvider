@@ -1,7 +1,8 @@
 {
     "name": "gridonic/prince-service-provider",
     "description": "A PrinceXML ServiceProvider for Silex.",
-    "keywords": ["silex"],
+    "keywords": ["silex", "princexml"],
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
@@ -14,14 +15,16 @@
         }
     ],
     "require": {
-        "php": ">=5.5.9",
         "silex/silex": "~2.0",
         "gridonic/princexml-php": "*"
     },
     "require-dev": {
-        "phpunit/phpunit": "^4"
+        "phpunit/phpunit": "^5"
     },
     "autoload": {
-        "psr-0": { "Gridonic\\Silex": "src" }
+        "psr-4": { "Gridonic\\Silex\\": "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Gridonic\\Silex\\Tests\\": "tests/" }
     }
 }
