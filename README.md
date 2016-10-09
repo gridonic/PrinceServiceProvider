@@ -16,26 +16,8 @@ Installation
 
 The recommended way to install PrinceServiceProvider is through [composer](http://packagist.org).
 
-Just create a composer.json file for your project:
-
-```JSON
-{
-    "require": {
-        "gridonic/prince-service-provider": "*"
-    }
-}
-```
-
-And run these two commands to install it:
-
-    $ wget http://getcomposer.org/composer.phar
-    $ php composer.phar install
-
-Now you can add the autoloader, and you will have access to the library:
-
-```php
-<?php
-require 'vendor/autoload.php';
+```bash
+composer require gridonic/prince-service-provider
 ```
 
 Usage
