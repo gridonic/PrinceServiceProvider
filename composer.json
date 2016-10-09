@@ -19,7 +19,7 @@
         "gridonic/princexml-php": "*"
     },
     "require-dev": {
-        "phpunit/phpunit": "^5"
+        "phpunit/phpunit": "^4"
     },
     "autoload": {
         "psr-4": { "Gridonic\\Silex\\": "src/" }
